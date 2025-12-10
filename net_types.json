@@ -1,0 +1,27 @@
+[
+  {
+    "figure": "NSES_test_01.drawio.pdf",
+    "classes": 2,
+    "first_layer": 3
+  },
+  {
+    "figure": "NSES_test_02.drawio.pdf",
+    "classes": 2,
+    "first_layer": 4
+  },
+  {
+    "figure": "NSES_test_03.drawio.pdf",
+    "classes": 2,
+    "first_layer": 2
+  },
+  {
+    "figure": "NSES_test_04.drawio.pdf",
+    "classes": 3,
+    "first_layer": 2
+  },
+  {
+    "figure": "NSES_test_05.drawio.pdf",
+    "classes": 3,
+    "first_layer": 4
+  }
+]
