@@ -1,0 +1,54 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage[a4paper, left=1.2cm, right=2.2cm, top=1.5cm, bottom=1.5cm]{geometry}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\section*{Zápočtový test z NSES}
+
+Jméno studenta: \rule{8cm}{0.4pt}
+
+\vspace{0.5cm}
+
+Na obrázku níže je znázorněna plně propojená neuronová síť.
+V buňkách je znázorněna složka vektoru v dané vrstvě, nad propojeními jsou názvy matic
+reprezentující váhy v jednotlivých vrstvách. Pro jednoduchost uvažujeme vrstvy bez prahu
+(\emph{bias}) a bez aktivačních funkcí. Pro potřeby definování ztrátové funkce uvažujeme
+na vstupu pouze jeden vektor.
+
+\vspace{0.3cm}
+
+\includegraphics[width=0.6\textwidth]{$FIGURE_FILE}
+
+\vspace{0.3cm}
+
+\begin{enumerate}
+    \item Doplňte strukturu sítě tak, aby umožňovala řešit typ úlohy \textbf{$TASK_SHORT}.
+    Uveďte vhodnou aktivační funkci / vrstvu za poslední vrstvou a zakreslete
+    výsledný počet neuronů a jejich propojení s předcházející vrstvou.
+
+    \item Definujte požadovanou \textbf{výstupní hodnotu} $$\vec{y}$$ podle typu úlohy
+    (jaké hodnoty může nabývat, jaký bude její tvar). \\[1ex]
+    \emph{Nápověda:} stručně popište, zda jde o skalár, vektor, one-hot vektor,
+    vektor pravděpodobností apod.
+
+    \item Zvolte vhodnou \textbf{ztrátovou funkci} pro řešení dané úlohy a zapište její vzorec.
+    Použijte notaci výstupu sítě $$\vec{\hat{y}}$$ a požadované hodnoty $$\vec{y}$$. \\[0.5ex]
+
+    \item Rozepište \textbf{dopředný průchod} sítí jako maticové operace ve správném tvaru.
+    Označte vstupní vektor $$x$$, mezivýstupy v jednotlivých vrstvách a výstup sítě
+    ($$\vec{s}, \vec{t}, \vec{z}, \vec{\hat{y}}$$).
+
+    \item Napište vzorec pro výpočet \textbf{gradientu ztrátové funkce} vzhledem k prvku
+    matice $$S_{$INDEX1 $INDEX2}$$. Výsledek zapište jako vhodnou aplikaci řetězového pravidla
+    (\emph{chain rule}).
+\end{enumerate}
+
+\end{document}
